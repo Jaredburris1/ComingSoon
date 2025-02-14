@@ -11,11 +11,11 @@ function App() {
     <div>
       <MatrixBackground />
 
-      <Container
+      <Container 
         fluid
         className="d-flex justify-content-center align-items-center"
         style={{ minHeight: '100vh', position: 'relative', zIndex: 1 }} >
-
+        
         <Row className="w-100">
           <Col md={{ span: 6, offset: 3 }} className="text-center">
 
